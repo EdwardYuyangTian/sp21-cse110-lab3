@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journals</title>
+    <link rel="my favicon" href="https://www.google.com.hk/search?q=favorite+icon&newwindow=1&safe=strict&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiQ-aCnve3vAhUHLpQKHdbJB1kQ_AUoAXoECAEQAw#imgrc=TFYrQf5Bs6Qr8M">
+</head>
+<body>
+    <header>
+        <div>My Journals</div>
+        <nav>
+          <ul>
+            <li><a href="#day1">Day before yesterday</a></li>
+            <li><a href="#day2">Yesterday</a></li>
+            <li><a href="#day3">Today</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Journals of these 3 days</h1>
+        <audio controls>
+            <source src="MP3Ex.mp3" type="audio/mpeg">
+        </audio>
+
+        <video width="320" height="240" controls>
+            <source src="nature.mp4" type="video/mp4">
+        </video>
+
+        My favorite picture of these days
+        <img
+          src="https://ibb.co/PwqLF21"
+          alt="beautiful scene"
+        />
+        <h2 id="day1">Journal of the day before yesterday</h2>
+        <div>
+            <h3>Things I have done</h3>
+            <ol>
+              <li>Homework</li>
+              <li>Lectures</li>
+              <li>Dinner</li>
+            </ol>
+            <section> This is the section describing my mood. I felt ok. </section>
+        </div>
+        <hr>
+
+        <h2 id="day2">Journal of yesterday</h2>
+        <div>
+            This is the division of my day 2 journal.
+            Things I've done:
+            <ul>
+                <li>HW</li>
+                <li>HW</li>
+                <li>HW</li>
+            </ul>
+            I also learned using span tag <span> Span1 </span> <span>Span2 </span> <span>Span3 </span> Cool!
+            <p> A new paragraph. But I don't know what to talk about. </p>
+        </div>
+
+        <hr>
+
+        <h2 id="day3">Journal of today</h2>
+        <div>
+            I learnt inline text semantics <br />
+            <b> bolded </b> <br />
+            <strong> bolded automatically because this is important </strong> <br />
+            <i> italicized </i> <br />
+            <em> italicized automatically because this is also important </em> <br />
+            <a href="https://medium.com/the-mission/stop-taking-pictures-start-taking-photos-9039ca99e1d6">
+                a tutorial about taking pictures I found interesting
+            </a>
+        </div>
+        
+        <hr>
+
+        <details>
+            <summary>Now you've finished reading the journals. Whats next?</summary>
+            <p>Please hit subscribe!</p>
+        </details>
+
+      </main>
+      <hr />
+      <footer>
+        <h6 id="subscribe">Subscribe</h6>
+        <form onsubmit="alert('Subscribed')">
+          <fieldset>
+            <label for="start">Start date:</label>
+            <input type="date" id="start" name="birthday"
+                   value="2000-07-22"
+                   min="2000-01-01" max="2021-12-31">
+
+            <label> <input type="checkbox">Happy</label>
+            <label> <input type="checkbox">Sad</label>
+
+            <input type="radio" name="gender" id="male"> 
+            <label for="m">Male</label>
+            <input type="radio" name="gender" id="female"> 
+            <label for="f">Female</label>
+          </fieldset>
+          <textarea name="comments"></textarea>
+
+          <select>
+            <option selected disabled>--Select City--</option>
+            <option>New York</option>
+            <option>Chicago</option>
+            <option>Los Angeles</option>
+            <option>Washington DC</option>
+          </select>
+
+          <label for="feedback-choice">Choose a feedback:</label>
+          <input list="choices" id="feedback-choice" name="feedback-choice" />
+
+            <datalist id="choices">
+                <option value="Awesome">
+                <option value="Good">
+                <option value="Soso">
+                <option value="Bad">
+            </datalist>
+
+          <input type="text" placeholder="Enter Email Address" />
+          <button>Submit</button>
+        </form>
+        <br />
+        <div>&copy; dakota kelly at Allrecipe.com</div>
+      </footer>
+
+
+    </main>
+</body>
+</html>
