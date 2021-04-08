@@ -80,52 +80,53 @@
             <summary>Now you've finished reading the journals. Whats next?</summary>
             <p>Please hit subscribe!</p>
         </details>
-
+        </main>
       <hr />
-      </main>
-      <footer>
-        <h6 id="subscribe">Subscribe</h6>
-        <form onsubmit="alert('Subscribed')">
-          <fieldset>
-            <label for="start">Start date:</label>
-            <input type="date" id="start" name="birthday"
-                   value="2000-07-22"
-                   min="2000-01-01" max="2021-12-31">
 
-            <label> <input type="checkbox">Happy</label>
-            <label> <input type="checkbox">Sad</label>
+    <main>
+        <footer>
+            <h6 id="subscribe">Subscribe</h6>
+            <form onsubmit="alert('Subscribed')">
+            <fieldset>
+              <label for="start">Start date:</label>
+              <input type="date" id="start" name="birthday"
+                     value="2000-07-22"
+                     min="2000-01-01" max="2021-12-31">
 
-            <input type="radio" name="gender" id="male"> 
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="female"> 
-            <label for="female">Female</label>
-          </fieldset>
-          <textarea name="comments"></textarea>
+                <label> <input type="checkbox">Happy</label>
+                <label> <input type="checkbox">Sad</label>
 
-          <select>
-            <option selected disabled>--Select City--</option>
-            <option>New York</option>
-            <option>Chicago</option>
-            <option>Los Angeles</option>
-            <option>Washington DC</option>
-          </select>
+                <input type="radio" name="gender" id="male"> 
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female"> 
+                <label for="female">Female</label>
+            </fieldset>
+            <textarea name="comments"></textarea>
 
-          <label for="feedback-choice">Choose a feedback:</label>
-          <input list="choices" id="feedback-choice" name="feedback-choice" />
+            <select>
+                <option selected disabled>--Select City--</option>
+                <option>New York</option>
+                <option>Chicago</option>
+                <option>Los Angeles</option>
+                <option>Washington DC</option>
+            </select>
 
-            <datalist id="choices">
-                <option value="Awesome">
-                <option value="Good">
-                <option value="Soso">
-                <option value="Bad">
-            </datalist>
+            <label for="feedback-choice">Choose a feedback:</label>
+            <input list="choices" id="feedback-choice" name="feedback-choice" />
 
-          <input type="text" placeholder="Enter Email Address" />
-          <button>Submit</button>
-        </form>
-        <br />
-        <div>&copy; dakota kelly at Allrecipe.com</div>
-      </footer>
-      </main>
+                <datalist id="choices">
+                    <option value="Awesome">
+                    <option value="Good">
+                    <option value="Soso">
+                    <option value="Bad">
+                </datalist>
+
+            <input type="text" placeholder="Enter Email Address" />
+            <button>Submit</button>
+            </form>
+            <br />
+            <div>&copy; dakota kelly at Allrecipe.com</div>
+        </footer>
+    </main>
 </body>
 </html>
