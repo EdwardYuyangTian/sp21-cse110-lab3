@@ -8,7 +8,10 @@
 #### Important issues from any member:
 
 
-#### Blockers:
+#### Things done yesterday:
 
 
-#### Must-do list today:
+#### Challenges/Blockers:
+
+
+#### Must-do list today of the group:
