@@ -1,2 +1,1 @@
-https://edwardyuyangtian.github.io/Lab2/
-link to my published site.
+https://edwardyuyangtian.github.io/sp21-cse110-lab3/
