@@ -1,3 +1,7 @@
+* {
+    color: green;
+  }
+
 .box {
     background-color: #567895;
     border-width: 1px;
@@ -40,13 +44,17 @@ p:firt-letter {
     font-weight: bold;
 }
 
-div{font-size: 1em;
+div.catalog {font-size: 1em;
     box-sizing: border-box;
     max-width: 150px;
     min-width: 50px;
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+a[href*="google"] {
+    font-size: 2em;
 }
 
 button:hover {
@@ -65,6 +73,9 @@ h3 { word-spacing: 4mm; }
 h4 { font-size: 12pt; }     
 h5 { font-size: 1pc; }      
 h6 { font-size: 12px; }
+h3, h4, h5 {
+    color: red;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -90,4 +101,24 @@ h6 { font-size: 12px; }
     grid-template-areas: 
     "header header header" 
     "footer footer footer";
+}
+
+li {
+    list-style-type: disc;
+}
+  
+nav li {
+    list-style-type: circle;
+}
+
+div > span {
+    background-color: DodgerBlue;
+}
+
+p ~ span {
+    color: yellow;
+}
+
+img + p {
+    font-weight: bold;
 }
