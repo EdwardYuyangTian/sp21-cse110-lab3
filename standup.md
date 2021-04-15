@@ -2,10 +2,8 @@
 
 
 
-#### Absent list:
 
-
-#### Important issues from any member:
+#### Important issues:
 
 
 #### Things done yesterday:
@@ -14,4 +12,4 @@
 #### Challenges/Blockers:
 
 
-#### Must-do list today of the group:
+#### Must-do list today:
